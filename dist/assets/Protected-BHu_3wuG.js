@@ -1,1 +1,0 @@
-import{u as r,a as u,r as a}from"./index-Dyx_lIAV.js";const c=({roles:s})=>{const n=r(),{user:e,isSignin:i}=u(t=>t.auth);return a.useEffect(()=>{const t=setTimeout(()=>{(!e||!s.includes(e.level)||!i)&&n("/signin")},500);return()=>clearTimeout(t)},[e,i,s]),null};export{c as P};

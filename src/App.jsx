@@ -49,6 +49,8 @@ function App() {
       <MetaData title={"E-Shop"} desc={"Layanan Belanja Mudah Belanja Murah"} />
       <Suspense fallback={<p>Loading...</p>}>
         <Routes>
+          <Route path="*" element={<Index />} />
+
           <Route path="/signin" element={<Signin />} />
 
           <Route path="/signup" element={<Signup />} />
