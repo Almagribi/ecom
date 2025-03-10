@@ -32,6 +32,7 @@ const store = configureStore({
       ApiCart.middleware,
       ApiApp.middleware,
     ]),
+  devTools: false,
 });
 
 export default store;

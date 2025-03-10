@@ -1,0 +1,1 @@
+import{j as s,N as a,F as i}from"./index-DLC-jlEZ.js";const e=({children:t})=>s.jsxs("div",{className:"bg-light ",children:[s.jsx(a,{}),s.jsx("div",{style:{padding:"80px 0",minHeight:"78vh"},children:t}),s.jsx(i,{})]});export{e as L};
